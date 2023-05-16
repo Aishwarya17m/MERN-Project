@@ -1,0 +1,125 @@
+.main-content{
+    display:flex;
+    justify-content: space-between;
+}
+.left-menu{
+    background-color: #c10e0e;
+    width: 30%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.product-content{
+    width: 100%;
+}
+.searchpro{
+    color: black;
+}
+.grid-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.product-images{
+    width: 93%;
+    height: 300px;
+   
+    border-bottom: 1px solid black;
+
+    margin: 10px;
+  
+}
+.description{
+    text-align: center;
+  margin:6px;
+}
+
+.products-gridview{
+    box-shadow: 2px 2px 2px 2px #e5dcdc;
+    margin: 20px;
+    border-radius: 20px;
+ 
+}
+
+.price{
+    color:red;
+}
+
+.product-details-view{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    margin-top: 6%;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+.description-view{
+    width: 100%;
+    margin: 2%;
+    font-size: 20px;
+}
+.proimage-view{
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px 1px gray;
+    height: 50%;
+    margin: auto;
+    margin-left: 3%;
+}
+
+.description-view div{
+    padding: 5px;
+}
+.addtocart,.iquantity,.dquantity,.addtowishlist{
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    color: black;
+    background: #ff5a3f;
+    font-weight: bold;
+    margin-right:20px;
+    font-size: 15px;
+    margin-top: 10%;
+}
+.dquantity{
+    margin-left: 20px;
+}
+.left-menu-category{
+    margin-top: 50px;
+  
+    margin-left: -15%;
+    text-align: center;
+}
+.left-menu-category li,.pricerangebutton{
+   list-style: none;
+   margin: 10px;
+   background: black;
+   padding: 10px;
+   color:white;
+
+
+}
+.price-range-values{
+    display:flex;
+    justify-content: space-around;
+}
+.price-low-range,.price-high-range{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4%;
+    border-radius: 10px;
+    width:100px;
+
+}
+.order-product{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+.wishlist-empty{
+    text-align: center;
+    font-size: 30px;
+}
+

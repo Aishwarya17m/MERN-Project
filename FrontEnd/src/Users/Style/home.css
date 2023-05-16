@@ -1,0 +1,145 @@
+.navbar{
+    background-color: black;
+    color:white;
+    display: flex;
+  
+    
+}
+.rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn{
+    color:white;
+    background-color: black;
+}
+.rs-dropdown-toggle.rs-btn:hover{
+    color:black
+}
+.rs-dropdown-item{
+    font-size: 15px;
+
+}
+
+.username-top{
+    color:white;
+    background-color: black;
+    border: none;
+    /* padding: 20px; */
+    font-size: 15px;
+}
+.navbar-right{
+   
+    flex: 15% 1;
+    margin-top: 12px;
+}
+.navbar-left{
+    flex: 50% ;
+    margin: 20px;
+    font-weight: bold;
+}
+.navbar-right ul{
+    list-style-type: none;
+}
+.navbar-right ul li{
+  display: inline;
+}
+.navbar-right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.login-content{
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    box-shadow: 1px 1px 2px 3px #d0d4e6fa;
+    margin: 3% 5% 2% 5%;
+   
+   
+    padding: 20px;
+
+}
+.login-left-content{
+    width: 50%;
+    height: 50%;
+}
+
+.login-left-image{
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 2px black;
+    /* height: 30%; */
+    height: 370px;
+    width: 90%;
+    
+}
+.reg-left-image{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 2px black;
+    height: 580px;
+}
+.forgot-pass{
+    font-size: 13px;
+    margin-left: 70%;
+    margin-top: 10px;
+}
+.login-heading{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.back-arrow{
+    vertical-align: text-top;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.login-right-content{
+    margin-top: 3%;
+    width: 40%;
+   
+}
+.email, .password,.login-submit,.username,.re-enterpassword,.phone{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-submit{
+    border: 0;
+    background: #ff5a3f;
+    padding: 3%;
+    border-radius: 10px;
+}
+.login-email,.login-username,.login-phone{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.signup{
+    margin-left: 50%;
+}
+.signup,.signin{
+ 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.signin{
+margin-left:65%;
+font-size: 12px;
+}
+.signup:hover{
+    text-decoration: underline;
+   
+}
+.login-password, .login-re-enterpassword{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+  font-size: 20px;
+    width: 100%;
+    margin-top: 20px
+}

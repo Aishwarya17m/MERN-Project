@@ -1,0 +1,145 @@
+.email, .password,.login-submit,.retailname,.re-enterpassword,.phone{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-name,.pricelable,.brandlable,.desc,.stocklable,.category,.subcategory,.imagelable{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.login-email,.login-retailname,.login-phone{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.desc{
+    vertical-align: middle;
+    text-align: justify;
+}
+.productname,.brand{
+    text-transform: capitalize;
+}
+
+.productname,.proprice,.prodescription,.brand,.stock,.imageupload,.categoryselect,.select-subcategory{
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+   
+}
+.proprice{
+    margin-left:85px;
+}
+.brand,.imageupload{
+    margin-left: 75px;
+}
+.innerbar{
+    font-size: 20px;
+  
+}
+.stock{
+    margin-left: 80px;
+}
+.prodescription{
+    margin-left: 28px;
+    vertical-align: middle;
+}
+.categoryselect{
+    margin-left: 48px;
+   
+}
+.select-subcategory{
+    margin-left:10px;
+   
+}
+.retaillogin-left-image{
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 2px black;
+    height: 430px;
+    width: 90%;
+}
+.rs-dropdown-toggle, .rs-dropdown-toggle.rs-btn{
+    color:white;
+    background-color: black;
+}
+.rs-dropdown-toggle.rs-btn:hover{
+    color:white;
+}
+.rs-dropdown-item{
+    font-size: 15px;
+}
+
+.submit-product{
+    border: 0;
+    background: #ff5a3f;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color:white;
+  margin:4% 0px 4% 0px;
+    width:88%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.add-product-details{
+    margin-left: 15%;
+}
+.navbar-retailer-right{
+    width:20%;
+    margin-top:10px;
+ 
+}
+.navbar-retailer-right ul{
+    list-style-type: none;
+}
+.retail-flex{
+    display: flex;
+}
+.left-retail-flex{
+    width: 30%;
+    background: #f78e8e;
+    margin: 20px 0px 20px 20px;
+    border-radius: 20px;
+    height:800px;
+}
+.right-retail-content{
+    width:100%;
+}
+.approvedProducts,.approvalproducts{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:10%;
+}
+.approvedProducts{
+    padding-right: 30px;
+}
+
+.approvaltable{
+    width: 80%;
+    margin: 5%;
+}
+th{
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border:1px solid white;
+    margin:2px;
+    padding:10px;
+}
+td{
+border:1px solid black;
+padding:10px;
+background-color: #f4d5d5;
+font-weight: bold;
+}

@@ -1,0 +1,112 @@
+.FormGroup {
+	margin: 0 15px 20px;
+	padding:20px;
+	border-style: none;
+	background-color: #ffd3d3;
+	will-change: opacity, transform;
+	box-shadow: 0 3px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 2px 0 #829fff;
+	border-radius: 4px;
+}
+
+
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+}
+
+.FormButton {
+	display: block;
+	font-size: 16px;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin: 40px 15px 0;
+	background-color: #857482;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #000000;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+}
+
+.payment-details{
+    margin: 5%;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 30px;
+    border-radius: 10px;
+}
+.payment-product-details li{
+    font-size: 25px;
+    
+    list-style: none;
+    margin: 10px;
+    color: black;
+}
+.order-address{
+    font-size: 15px;
+    width: 87%;
+    background: #ffd3d3;
+padding: 10px;
+    color: black;
+    height: 100px;
+    border-radius: 15px;
+}
+.payment-type{
+    margin-left: 5%;
+    font-size: 23px;
+  
+    color: black;
+}
+.payment-type-select{
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    
+    height: 50px;
+    color:black;
+}
+.order-button{
+    width: 30%;
+    margin: 4%;
+    margin-left: 35%;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.debit-card-heading{
+    text-align: center;
+    background: black;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+.payment-form-details form{
+    margin-top: 2%;
+}
+.user-table,.order-table,.product-table{
+    width:90%;
+    margin:5%;
+}
+.order-details-heading{
+    margin: 30px 0px 0px 2px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+.order-details-div{
+    margin-left: 5%;
+    margin-top: 4%;
+}
